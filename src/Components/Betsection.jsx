@@ -9,10 +9,12 @@ import Confetti from 'react-confetti'
 const Image = styled("img")({
   height: "auto",
   width: "60%",
+ margin:"auto"
 });
 
 const ImgWrapper = styled(Box)`
   display: flex;
+  width:100%;
   justify-content: center;
   position: relative;
   
@@ -20,10 +22,10 @@ const ImgWrapper = styled(Box)`
 
 const Div = styled(Box)`
 
+width:100%;
 
 .Wrapper{
-    display: flex;
-  height: 60vh;
+  display: flex;
   width: 100%;
   justify-content: space-between;
 }
@@ -95,6 +97,7 @@ export const Betsection = ({Cardnth,Winner}) => {
      
       width={500}
       height={500}
+      confettiSource = {{x: 300, y: 0, w:600 , h:0}}
     />
     <Jackpot fontWeight="bold" variant= "h3">JackPot</Jackpot>
     
