@@ -33,8 +33,9 @@ width:100%;
 
 const Jackpot = styled(Typography)`
 position:absolute;
+
 color:black;
-transform:rotate(-60deg) translate(-60%,90%);
+transform:rotate(-60deg) translate(-60%,100%);
 font-family:"inherit";
 font-size:5em;
 
@@ -58,15 +59,15 @@ export const Betsection = ({Cardnth,Winner}) => {
    const [Animation, setAnimation] = useState(0)
 
 
-//   useEffect(() => {
+  useEffect(() => {
 
-//      setInterval(()=>{
+      setInterval(()=>{
         
-//         setAnimation(Animation+1)
+         setAnimation(Animation+1)
         
-//      },2000)
+      },2000)
  
-//   }, []);
+  }, []);
    
   return (
     <Div>
