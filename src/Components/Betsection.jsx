@@ -35,9 +35,9 @@ const Jackpot = styled(Typography)`
 position:absolute;
 
 color:black;
-transform:rotate(-60deg) translate(-60%,100%);
+transform:rotate(-60deg) translate(-70%,110%);
 font-family:"inherit";
-font-size:5em;
+font-size:calc(1em + 2.5vw + 2vh);
 
 
 `
